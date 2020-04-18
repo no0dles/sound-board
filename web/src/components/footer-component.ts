@@ -1,6 +1,6 @@
-import {BaseComponent} from './base-component.js';
-import {SettingsComponent} from './settings-component.js';
-import {Socket, SocketMessage} from '../websocket.js';
+import {BaseComponent} from './base-component';
+import {SettingsComponent} from './settings-component';
+import {Socket, SocketMessage} from '../websocket';
 
 export class FooterComponent extends BaseComponent {
   private socket: Socket | null;

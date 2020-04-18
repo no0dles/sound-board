@@ -1,4 +1,6 @@
-import {BaseComponent} from './base-component.js';
+import {BaseComponent} from './base-component';
+import style from './settings-field-component.css'
+//import html from './settings-field-component.html'
 
 export class SettingsFieldComponent extends BaseComponent {
   private key: string;
@@ -6,6 +8,7 @@ export class SettingsFieldComponent extends BaseComponent {
   constructor() {
     super();
 
+    console.log(style);
     this.shadow.innerHTML = `
       <style>
       :host {

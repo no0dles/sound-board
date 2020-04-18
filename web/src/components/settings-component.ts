@@ -1,6 +1,6 @@
-import {BaseComponent} from './base-component.js';
-import {Socket, SocketMessage} from '../websocket.js';
-import {SettingsFieldComponent} from './settings-field-component.js';
+import {BaseComponent} from './base-component';
+import {Socket, SocketMessage} from '../websocket';
+import {SettingsFieldComponent} from './settings-field-component';
 
 export class SettingsComponent extends BaseComponent {
   private socket: Socket | null;

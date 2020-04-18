@@ -1,5 +1,5 @@
 web/dist
 web/node_modules
-sound-board
+pi/sound-board
 .idea
 .DS_Store

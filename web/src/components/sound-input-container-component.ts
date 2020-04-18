@@ -1,6 +1,6 @@
-import {Socket, SocketMessage} from '../websocket.js';
-import {SoundInputComponent} from './sound-input-component.js';
-import {BaseComponent} from './base-component.js';
+import {Socket, SocketMessage} from '../websocket';
+import {SoundInputComponent} from './sound-input-component';
+import {BaseComponent} from './base-component';
 
 export class SoundInputContainerComponent extends BaseComponent {
   private socket: Socket | null;

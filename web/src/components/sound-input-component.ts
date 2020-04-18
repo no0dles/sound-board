@@ -1,4 +1,4 @@
-import {BaseComponent} from './base-component.js';
+import {BaseComponent} from './base-component';
 
 export class SoundInputComponent extends BaseComponent {
   key: string;
@@ -13,7 +13,7 @@ export class SoundInputComponent extends BaseComponent {
       :host {
         display: flex;
         background: #84c589;
-        color: #fff;
+        color: #333;
         align-items: center;
         width: calc(50% - 32px);
         padding: 8px;

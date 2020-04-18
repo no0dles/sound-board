@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  web:
+    image: no0dles/sound-board
+    restart: always
+    ports:
+    - 80:8080
+    devices:
+      - /dev/mem
+      - /dev/gpiomem
+    volumes:
+    - ./production-config.json:/app/config.json

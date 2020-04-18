@@ -1,0 +1,13 @@
+:host {
+    width: calc(50% - 16px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+
+input {
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+}

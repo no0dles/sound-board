@@ -1,5 +1,5 @@
-import {EventEmitter} from './event-emitter.js';
-import {Queue} from './queue.js';
+import {EventEmitter} from './event-emitter';
+import {Queue} from './queue';
 
 export type SocketStatusEvent = SocketStatusConnectedEvent | SocketStatusDisconnectedEvent | SocketStatusErrorEvent;
 

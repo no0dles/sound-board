@@ -1,0 +1,19 @@
+{
+  "mockGPIO": false,
+  "inputs": {
+    "input1": {
+      "pins": [21, 23, 7, 8],
+      "name": "Radio"
+    }
+  },
+  "outputs": {
+    "output1": {
+      "pins": [20, 25],
+      "name": "Output 1"
+    },
+    "output2": {
+      "pins": [16, 12],
+      "name": "Output 2"
+    }
+  }
+}

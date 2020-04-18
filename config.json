@@ -2,47 +2,51 @@
   "mockGPIO": true,
   "inputs": {
     "input1": {
-      "leftPin": 23,
-      "rightPin": 24,
+      "leftPin1": 20,
+      "leftPin2": 21,
+      "rightPin1": 22,
+      "rightPin2": 23,
       "name": "Radio"
     },
     "input2": {
-      "leftPin": 23,
-      "rightPin": 24,
+      "leftPin1": 30,
+      "leftPin2": 31,
+      "rightPin1": 32,
+      "rightPin2": 33,
       "name": "CD"
     }
   },
   "outputs": {
     "output1": {
-      "pin": 0,
+      "pin": 1,
       "name": "Output 1"
     },
     "output2": {
-      "pin": 0,
+      "pin": 2,
       "name": "Output 2"
     },
     "output3": {
-      "pin": 0,
+      "pin": 3,
       "name": "Output 3"
     },
     "output4": {
-      "pin": 0,
+      "pin": 4,
       "name": "Output 4"
     },
     "output5": {
-      "pin": 0,
+      "pin": 5,
       "name": "Output 5"
     },
     "output6": {
-      "pin": 0,
+      "pin": 6,
       "name": "Output 6"
     },
     "output7": {
-      "pin": 0,
+      "pin": 7,
       "name": "Output 7"
     },
     "output8": {
-      "pin": 0,
+      "pin": 8,
       "name": "Output 8"
     }
   }

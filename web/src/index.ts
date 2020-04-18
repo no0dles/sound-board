@@ -1,13 +1,12 @@
-import {Socket} from './websocket.js';
+import {Socket} from './websocket';
 
-import {SoundInputContainerComponent} from './components/sound-input-container-component.js';
-import {SoundOutputContainerComponent} from './components/sound-output-container-component.js';
-import {HeaderComponent} from './components/header-component.js';
-import {FooterComponent} from './components/footer-component.js';
-import {SpacerComponent} from './components/spacer-component.js';
+import {SoundInputContainerComponent} from './components/sound-input-container-component';
+import {SoundOutputContainerComponent} from './components/sound-output-container-component';
+import {HeaderComponent} from './components/header-component';
+import {FooterComponent} from './components/footer-component';
+import {SpacerComponent} from './components/spacer-component';
 
-const socket = new Socket('ws://localhost:8080/ws');
-socket.send({type: 'set_input', data: {key: 'input1'}});
+const socket = new Socket((<any>window).socketUrl || `${window.location.protocol === 'http:' ? 'ws' : 'wss'}://${window.location.host}/ws`);
 
 const inputContainer = new SoundInputContainerComponent();
 inputContainer.setSocket(socket);

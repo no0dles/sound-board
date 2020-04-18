@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Teleklinik Sound</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <script type="module" src="dist/index.js"></script>
+    <script>
+        window.socketUrl = '<%= htmlWebpackPlugin.options.socketUrl %>';
+    </script>
 </body>
 </html>

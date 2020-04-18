@@ -7,7 +7,7 @@ import (
 func NewGpioInterface(config *config.ServerConfiguration) GpioInterface {
 	var gpio GpioInterface
 	if config.MockGPIO {
-		gpio = &GpioMock{}
+		gpio = &GpioMock{config}
 	} else {
 		gpio = newGpioHub(config)
 	}
